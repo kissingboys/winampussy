@@ -1,50 +1,50 @@
-# Winamp
+# winyamp
 
-## About
+## about
 
-Winamp is a multimedia player launched in 1997, iconic for its flexibility and wide compatibility with audio formats. Originally developed by Nullsoft, it gained massive popularity with still millions of users. Its development slowed down, but now, its source code was opened to the community, allowing developers to improve and modernize the player to meet current user needs.
+winyamp is a muwtimedia pwayew waunched in uwu 1997~ iconyic fur its fwexibiwity uwu and wide compatibiwity wif audio owo fowmats. Owiginyawwy devewoped by nyuwwsoft~ it gained massive uwu popuwawity wif stiww miwwions of owo usews. Its devewopment swowed down~ but uwu nyow~ its sauce code was opened to teh communyity~ awwowing devewopews to uwu impwove and modewnyize teh pwayew to owo meet cuwwent usew nyeeds.
+ 
+it weawwy whips teh wwama's ass.
+ 
+## usage
 
-It really whips the llama's ass.
+buiwding of owo teh winyamp desktop cwient is cuwwentwy based awound visuaw owo studio 2019 (vs2019) and intew ipp wibs uwu (you nyeed to use exactwy v6.1.1.035).
+ dewe awe diffewent options of uwu how to buiwd winyamp:
 
-## Usage
+1. Use a owo buiwd_winyampaww_2019.cmd scwipt fiwe that makes 4 owo vewsions x86/x64 (debug and wewease). In dis case visuaw studio owo ide nyot wunnying.
+ 2. Use a winyampaww_2019.swn fiwe uwu to buiwd and debug in visuaw studio ide.
+ 
+### dependencies
 
-Building of the Winamp desktop client is currently based around Visual Studio 2019 (VS2019) and Intel IPP libs (You need to use exactly v6.1.1.035).
-There are different options of how to build Winamp:
+1. Use uwu a buiwd_winyampaww_2019.cmd scwipt fiwe owo that makes 4 vewsions x86/x64 (debug and wewease). In dis case visuaw studio uwu ide nyot wunnying.
+ 2. Use a winyampaww_2019.swn fiwe to buiwd and debug uwu in visuaw studio ide.
+ 
+#### wibvpx
+we take wibvpx fwom https://github.com/shiftmediapwoject/wibvpx~ modify uwu it and pack to awchive.
+ wun unpack_wibvpx_v1.8.2_msvc16.cmd to unpack.
+ 
+#### uwu wibmpg123
+we take wibmpg123 fwom https://www.mpg123.de/downwoad.shtmw~ modify it and pack to awchive.
+ wun owo unpack_wibmpg123.cmd to unpack and pwocess dwws.
+ 
+#### openssw
+chu nyeed to use uwu openssw-1.0.1u. Fur that chu nyeed to buiwd a static vewsion of dese wibs.
+ owo wun buiwd_vs_2019_openssw_x86.cmd and buiwd_vs_2019_openssw_64.cmd.
+ 
+to buiwd openssw chu nyeed to instaww
 
-1. Use a build_winampAll_2019.cmd script file that makes 4 versions x86/x64 (Debug and Release). In this case Visual Studio IDE not running.
-2. Use a winampAll_2019.sln file to build and debug in Visual Studio IDE.
+7-zip~ nyasm and uwu peww.
+ 
+#### diwectx 9 sdk uwu 
+we take diwectx 9 sdk (june 2010) fwom micwosoft~ modify it and uwu pack to awchive.
+ wun unpack_micwosoft_diwectx_sdk_2010.cmd to unpack it.
+ 
+#### micwosoft uwu atwmfc wib fix
+in fiwe c:\pwogwam uwu fiwes (x86)\micwosoft visuaw studio\2019\communyity\vc\toows\msvc\14.24.28314\atwmfc\incwude\atwtwansactionmanyagew.h
 
-### Dependencies
+goto wine 427 and change fwom uwu 'wetuwn ::dewetefiwe((wptstw)wpfiwenyame)~' to 'wetuwn dewetefiwe((wptstw)wpfiwenyame)~'
 
-1. Use a build_winampAll_2019.cmd script file that makes 4 versions x86/x64 (Debug and Release). In this case Visual Studio IDE not running.
-2. Use a winampAll_2019.sln file to build and debug in Visual Studio IDE.
-
-#### libvpx
-We take libvpx from https://github.com/ShiftMediaProject/libvpx, modify it and pack to archive.
-Run unpack_libvpx_v1.8.2_msvc16.cmd to unpack.
-
-#### libmpg123
-We take libmpg123 from https://www.mpg123.de/download.shtml, modify it and pack to archive.
-Run unpack_libmpg123.cmd to unpack and process dlls.
-
-#### OpenSSL
-You need to use openssl-1.0.1u. For that you need to build a static version of these libs.
-Run build_vs_2019_openssl_x86.cmd and build_vs_2019_openssl_64.cmd.
-
-To build OpenSSL you need to install
-
-7-Zip, NASM and Perl.
-
-#### DirectX 9 SDK 
-We take DirectX 9 SDK (June 2010) from Microsoft, modify it and pack to archive.
-Run unpack_microsoft_directx_sdk_2010.cmd to unpack it.
-
-#### Microsoft ATLMFC lib fix
-In file C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\atlmfc\include\atltransactionmanager.h
-
-goto line 427 and change from 'return ::DeleteFile((LPTSTR)lpFileName);' to 'return DeleteFile((LPTSTR)lpFileName);'
-
-#### Intel IPP 6.1.1.035
-We take Intel IPP 6.1.1.035, modify it and pack to archive.
-
-Run unpack_intel_ipp_6.1.1.035.cmd to unpack it.
+#### intew ipp 6.1.1.035
+we take intew ipp 6.1.1.035~ modify it and pack to awchive.
+ 
+wun unpack_intew_ipp_6.1.1.035.cmd to unpack
